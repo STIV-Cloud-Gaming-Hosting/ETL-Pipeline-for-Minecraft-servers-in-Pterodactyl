@@ -1,0 +1,6 @@
+py-dactyl
+pyarrow
+psycopg2
+sqlalchemy
+pandas
+python-dotenv
