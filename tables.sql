@@ -222,7 +222,7 @@ CREATE TABLE pterodactyl.activity (
 	server_id VARCHAR(8) NOT NULL,
 	date DATE NOT NULL,
 	time TIME NOT NULL,
-	information VARCHAR(100),
+	information text,
 	"user" VARCHAR(50),
 	activity VARCHAR(6)
 );
