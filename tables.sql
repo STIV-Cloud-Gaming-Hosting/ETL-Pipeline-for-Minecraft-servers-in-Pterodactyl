@@ -242,5 +242,5 @@ AS (
     FROM pterodactyl.activity AS a
     INNER JOIN pterodactyl.servers AS s
         ON a.server_id = s.identifier
-    GROUP BY s.identifier
+    GROUP BY s.identifier, s.name
 );
