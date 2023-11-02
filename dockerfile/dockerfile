@@ -21,7 +21,8 @@ WORKDIR /app
 COPY requirements.txt scheduler.py /app/
 COPY pterodactyl_application.ipynb /app/
 
-RUN mkdir /app/server_app_data /app/logs
+RUN mkdir /app/server_app_data
+RUN mkdir /app/logs
 RUN touch /app/logs/logs.log
 
 # Add timezone to the container

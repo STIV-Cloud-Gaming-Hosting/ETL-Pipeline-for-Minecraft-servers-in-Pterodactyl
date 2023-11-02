@@ -20,7 +20,6 @@ def run_ipynb(filename_ipynb, timeout):
 schedule.every().day.at("06:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 schedule.every().day.at("12:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 schedule.every().day.at("18:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
-schedule.every(1).minutes.do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 
 # Run the scheduler loop
 print('[The schedule has started]')

@@ -1,5 +1,6 @@
 -- CREATE SCHEMA 
 CREATE SCHEMA pterodactyl;
+CREATE SCHEMA pterodactyl_update;
 
 -- TABLES FROM PTERODACTYL APP DATA
 
@@ -108,7 +109,7 @@ CREATE TABLE pterodactyl.clients_server (
 
 -- TABLES_UPDATE FROM PTERODACTYL APP DATA
 
-CREATE TABLE pterodactyl.locations_update (
+CREATE TABLE pterodactyl_update.locations_update (
 	id int8 PRIMARY KEY,
 	short text NOT NULL,
 	long float8 NULL,
@@ -116,7 +117,7 @@ CREATE TABLE pterodactyl.locations_update (
 	updated_at timestamptz NOT NULL
 );
 
-CREATE TABLE pterodactyl.nests_update (
+CREATE TABLE pterodactyl_update.nests_update (
 	id int8 PRIMARY KEY,
 	uuid text NOT NULL,
 	"name" text NOT NULL,
@@ -126,7 +127,7 @@ CREATE TABLE pterodactyl.nests_update (
 	updated_at timestamptz NOT NULL
 );
 
-CREATE TABLE pterodactyl.eggs_update (
+CREATE TABLE pterodactyl_update.eggs_update (
 	id int8 PRIMARY KEY,
 	uuid text NOT NULL,
 	"name" text NOT NULL,
@@ -137,7 +138,7 @@ CREATE TABLE pterodactyl.eggs_update (
 	updated_at timestamptz NOT NULL
 );
 
-CREATE TABLE pterodactyl.nodes_update (
+CREATE TABLE pterodactyl_update.nodes_update (
 	id int8 PRIMARY KEY,
 	uuid text NOT NULL,
 	public bool NOT NULL,
@@ -160,7 +161,7 @@ CREATE TABLE pterodactyl.nodes_update (
 	updated_at timestamptz NOT NULL
 );
 
-CREATE TABLE pterodactyl.servers_update (
+CREATE TABLE pterodactyl_update.servers_update (
 	id int8 PRIMARY KEY,
 	uuid text NOT NULL,
 	identifier text NOT NULL,
@@ -183,7 +184,7 @@ CREATE TABLE pterodactyl.servers_update (
 	updated_at timestamptz NOT NULL
 );
 
-CREATE TABLE pterodactyl.clients_update (
+CREATE TABLE pterodactyl_update.clients_update (
 	id int8 PRIMARY KEY,
 	uuid text NOT NULL,
 	client_name text NOT NULL,
@@ -196,7 +197,7 @@ CREATE TABLE pterodactyl.clients_update (
 	updated_at timestamptz NOT NULL
 );
 
-CREATE TABLE pterodactyl.clients_server_update (
+CREATE TABLE pterodactyl_update.clients_server_update (
 	id int8 PRIMARY KEY,
 	client_id int8 NOT NULL,
 	server_id int8 NOT NULL,
@@ -206,7 +207,7 @@ CREATE TABLE pterodactyl.clients_server_update (
 
 -- IS_ACTIVE_TABLE TO KEEP OLD DATA IN DB
 
-CREATE TABLE pterodactyl.is_active_table (
+CREATE TABLE pterodactyl_update.is_active_table (
 	id int8 NOT NULL
 );
 

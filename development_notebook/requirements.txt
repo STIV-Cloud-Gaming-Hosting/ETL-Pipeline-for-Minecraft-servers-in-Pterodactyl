@@ -1,6 +1,8 @@
 py-dactyl
-pyarrow
-psycopg2
-sqlalchemy
 pandas
-python-dotenv
+psycopg2-binary
+sqlalchemy
+schedule
+nbformat
+nbconvert
+retry
