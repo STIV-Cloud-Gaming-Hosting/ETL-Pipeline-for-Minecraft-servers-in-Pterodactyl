@@ -60,6 +60,14 @@ CREATE TABLE pterodactyl.nodes (
 	is_active bool DEFAULT true NOT NULL
 );
 
+CREATE TABLE pterodactyl.allocations (
+	id int8 PRIMARY KEY,
+	port int4 NOT NULL,
+	assigned bool NOT NULL,
+	node_id int8 NOT NULL,
+	is_active bool DEFAULT true NOT NULL
+);
+
 CREATE TABLE pterodactyl.servers (
 	id int8 PRIMARY KEY,
 	uuid text NOT NULL,
@@ -159,6 +167,13 @@ CREATE TABLE pterodactyl_update.nodes_update (
 	daemon_base text NOT NULL,
 	created_at timestamptz NOT NULL,
 	updated_at timestamptz NOT NULL
+);
+
+CREATE TABLE pterodactyl_update.allocations_update (
+	id int8 PRIMARY KEY,
+	port int4 NOT NULL,
+	assigned bool NOT NULL,
+	node_id int8 NOT NULL
 );
 
 CREATE TABLE pterodactyl_update.servers_update (
