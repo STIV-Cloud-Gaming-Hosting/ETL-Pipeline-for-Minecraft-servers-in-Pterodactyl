@@ -23,8 +23,14 @@ schedule.every().day.at("18:00").do(run_ipynb, filename_ipynb='pterodactyl_appli
 
 # Run the scheduler loop
 print('[The schedule has started]')
-print(f'- The timezone is {TZ}\n')
-print(schedule.get_jobs()) # This needs a fix to look nicer
+print(f'- The timezone is {TZ}')
+for line in str(schedule.get_jobs())[1:-1].replace('), ','||').replace(' do ',' do||').replace('(last run:',' ||last run:').replace(', next run:','||next run:').split('||'):
+    if line.startswith('Every'):
+        print(f'\n{line}')
+    else:
+        print(f'  {line}')
+
+print('\n')
 while True:
     schedule.run_pending()
     time.sleep(600) # Wait 10 minutes before check again the tasks to run
