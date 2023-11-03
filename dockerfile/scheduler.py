@@ -30,7 +30,7 @@ for line in str(schedule.get_jobs())[1:-1].replace('), ','||').replace(' do ',' 
     else:
         print(f'  {line}')
 
-print('\n')
+print('')
 while True:
     schedule.run_pending()
     time.sleep(600) # Wait 10 minutes before check again the tasks to run
