@@ -20,8 +20,9 @@ ENV PYTHONDONTWRITEBYTECODE 1
 WORKDIR /app
 COPY requirements.txt scheduler.py /app/
 COPY pterodactyl_application.ipynb /app/
+COPY pterodactyl_minecraft_logs.ipynb /app/
 
-RUN mkdir /app/server_app_data
+RUN mkdir /app/server_app_data /app/raw_logs_folder
 RUN mkdir /app/logs
 RUN touch /app/logs/logs.log
 

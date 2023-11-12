@@ -5,7 +5,7 @@ from retry import retry
 # Environment variables
 PWD = os.path.dirname(os.path.realpath(__file__))
 TZ = os.environ['TZ']
-TIMEOUT=1800 #(30 min)
+TIMEOUT = 1800 #(30 min)
 
 @retry(tries=5, delay=10, backoff=2, max_delay=60)
 def run_ipynb(filename_ipynb, timeout):
@@ -20,6 +20,7 @@ def run_ipynb(filename_ipynb, timeout):
 schedule.every().day.at("06:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 schedule.every().day.at("12:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 schedule.every().day.at("18:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
+schedule.every().day.at("07:00").do(run_ipynb, filename_ipynb='pterodactyl_minecraft_logs.ipynb', timeout=TIMEOUT)
 
 # Run the scheduler loop
 print('[The schedule has started]')
