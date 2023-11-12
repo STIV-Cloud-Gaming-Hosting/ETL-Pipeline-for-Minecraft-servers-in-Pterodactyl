@@ -21,6 +21,7 @@ schedule.every().day.at("06:00").do(run_ipynb, filename_ipynb='pterodactyl_appli
 schedule.every().day.at("12:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 schedule.every().day.at("18:00").do(run_ipynb, filename_ipynb='pterodactyl_application.ipynb', timeout=TIMEOUT)
 schedule.every().day.at("07:00").do(run_ipynb, filename_ipynb='pterodactyl_minecraft_logs.ipynb', timeout=TIMEOUT)
+schedule.every(30).minutes.do(run_ipynb, filename_ipynb='pterodactyl_resource_consumption.ipynb', timeout=TIMEOUT)
 
 # Run the scheduler loop
 print('[The schedule has started]')
