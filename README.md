@@ -9,9 +9,10 @@ This project has been developed to facilitate the extraction of information from
 ## Table of contents
 * [Purpose](#purpose)
 * [Requirementes before using this project](#requierements-before-using-this-project)
-* [Recomendations to install and run the project](#recomendations-to-install-and-run-the-project)
-* [Use the project with jupyter notebook (non production)](#use-the-project-with-jupyter-notebook-non-production)
-* [Use the proyect with docker (for production)](#use-the-proyect-with-docker-for-production)
+* [How to use this project](#how-to-use-this-project)
+* [Use the project with Jupyter Notebook (development)](#use-the-project-with-jupyter-notebook-development)
+* [Use the project with docker (for production)](#use-the-project-with-docker-for-production)
+* [Environment Variables](#environment-variables)
 
 ## Purpose
 
@@ -57,7 +58,7 @@ This notebook is dedicated to obtaining information concerning the status of eac
 
 > To learn more details about these notebooks, please refer to the documentation available [here](/development_notebook). Alternatively, you can examine each notebook individually, but we strongly encourage you to review the documentation beforehand.
 
-### Use the proyect with docker (for production)
+### Use the project with docker (for production)
 To utilize all these notebooks scheduled within a Docker container, you can proceed by using the [Docker Compose Example](dockercompose/docker-compose.example.yml) provided in this project to build and run the image.
 
 The simplest way to achieve this is to copy and paste the example into your own docker-compose.yml file:
@@ -88,7 +89,9 @@ To execute this Docker Compose you just need to:
 docker compose up -d --build
 ```
 
-Before proceeding, please ensure that you have configured your own environment variables for your application. Here, you can review the purpose of each variable and find some examples that may assist you:
+> Before proceeding, please ensure that you have configured your own environment variables for your application. Below, you can review the purpose of each variable and find some examples that may assist you.
+
+## Environment Variables
 
 | Variable Name     | Description                             | Example Value        |
 |-------------------|-----------------------------------------|----------------------|
