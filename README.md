@@ -2,9 +2,9 @@
 
 ## Project Description
 
-This project has been developed to facilitate the extraction of information from [Pterodactyl](https://pterodactyl.io), encompassing data related to servers, eggs, nodes, allocations, consumption, and other relevant aspects. Additionally, it involves retrieving information about user activity on Minecraft servers, achieved through the utilization of both the Application and Client Pterodactyl's [Python APIs](https://github.com/iamkubi/pydactyl). The project also integrates with the [PostgreSQL](https://www.postgresql.org) database using SQLalchemy. Consequently, the collected data is uploaded to PostgreSQL, enabling us to conduct subsequent analyses on our services and identify areas for improvement.
+This project has been developed to facilitate the extraction of information from [Pterodactyl](https://pterodactyl.io), encompassing data related to servers, eggs, nodes, allocations, consumption, and other relevant aspects. Additionally, it involves retrieving information about user activity on Minecraft servers, achieved through the utilization of both the Application and Client Pterodactyl's [Python APIs](https://github.com/iamkubi/pydactyl). The project seamlessly integrates with the [PostgreSQL](https://www.postgresql.org) database, serving as a robust data warehouse.
 
-![DIAGRAM_STIV](Images/Diagram_STIV.png)
+![DIAGRAM_STIV](images/Diagram_STIV.jpg)
 
 ## Table of contents
 * [Purpose](#purpose)
@@ -23,7 +23,7 @@ The initial and crucial step for utilizing this project is to ensure the presenc
 
 Subsequently, you must have a PostgreSQL database in place. Alternatively, if you possess database expertise, you can opt for another SQL database and modify the code accordingly based on its requirements. Within this database, it is imperative to include the tables outlined in [postgres_tables_and_views](/postgres_tables_and_views), along with the specified relationships between them, as illustrated below.
 
-![ERD/ERM](Images/ERD_pterodactyl.jpg)
+![ERD/ERM](images/ERD_pterodactyl.jpg)
 
 The majority of these tables are designed with consideration for the relationships that exist between them, typically utilizing the 'id' or identifier to establish references. It is crucial to emphasize that the activity and consumption tables align with the contents of [pterodactyl_minecraft_logs](/development_notebook/pterodactyl_minecraft_logs.ipynb) and [pterodactyl_resource_consumption](/development_notebook/pterodactyl_resource_consumption.ipynb), respectively. Conversely, all other tables correspond to [pterodactyl_application](/development_notebook/pterodactyl_application.ipynb). Therefore, meticulous attention should be given to the creation of each table to prevent errors when loading data into PostgreSQL.
 
