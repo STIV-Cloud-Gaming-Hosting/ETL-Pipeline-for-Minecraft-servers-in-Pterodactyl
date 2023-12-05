@@ -5,21 +5,39 @@ We chose to use PostgreSQL because it is self-hosted and free. While it is typic
 ## Schemas
 
 [Brief description]
+The primary purpose of the schemas is to maintain distinct environments for each aspect of this project. The aforementioned design facilitates straightforward and efficient execution of queries within PostgreSQL. It also enables the subsequent visualization of data in a focused manner, free from interventions or data irrelevant to the specific information being sought.
 
 ### pterodactyl
 
-[Create a table and specify the tables in it and what are they for]
-[Specify which pipelines are involved in this schema as a side note]
+| Table                 | Description                                               |
+|-------------------------------|-----------------------------------------------------------|
+| `locations`             | It contains information about the locations of Pterodactyl. |
+| `nodes`             | These are Pterodactyl nodes. |
+| `allocations`             | It contains information about Pterodactyl allocations. |
+| `nests`             | It holds information about Pterodactyl nests. |
+| `eggs`             | It contains information about the game eggs. |
+| `servers`                   | It contains information about the servers and establishes connections with most of the tables. |
+| `clients`  | It holds customer information. |
+| `clients_server`            | It provides information regarding the servers for each client. |
+| `last_update`             | It provides information on the last update of the database. |
+| `utilization`             | It encompasses all the information related to resource consumption. |
+
+This schema is created based on  [pterodactyl_application](/development_notebook/pterodactyl_application.ipynb) and [pterodactyl_resource_consumption](/development_notebook/pterodactyl_resource_consumption.ipynb)
 
 ### pterodactyl_update
 
-[Create a table and specify the tables in it and what are they for]
-[Specify which pipelines are involved in this schema as a side note]
+This schema includes the same tables as the previous schema, but with '_update' appended to their names. Its primary purpose is to store information about the latest update times for each table in the 'pterodactyl' schema. This ensures that only entirely new information is added.
+
+The data in these tables is sourced from [pterodactyl_application](/development_notebook/pterodactyl_application.ipynb)
 
 ### minecraft
 
-[Create a table and specify the tables in it and what are they for]
-[Specify which pipelines are involved in this schema as a side note]
+
+| Table                 | Description                                               |
+|-------------------------------|-----------------------------------------------------------|
+| `activity`             | It encompasses information regarding the activity of each user on their respective server. |
+
+All the information in this schema is sourced from [pterodactyl_minecraft_logs](/development_notebook/pterodactyl_minecraft_logs.ipynb) 
 
 ## Data Modeling (pterodactyl)
 
