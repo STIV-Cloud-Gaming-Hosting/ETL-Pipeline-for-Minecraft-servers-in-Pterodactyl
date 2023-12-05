@@ -78,4 +78,4 @@ The "Load Data into Data Warehouse (PostgreSQL)" section mirrors the one utilize
 
 ## More details about the tables
 
-You can find more information about tables in Postgres in the folowing director: [postgres](/postgres_tables_and_views)
+You can find more information about tables in Postgres in the folowing directory: [postgres_datawarehouse](/postgres_datawarehouse)
