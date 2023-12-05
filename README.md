@@ -93,16 +93,16 @@ docker compose up -d --build
 
 ## Environment Variables
 
-| Variable Name     | Description                             | Example Value        |
-|-------------------|-----------------------------------------|----------------------|
-| `TZ` | Set the time zone for appropriate task scheduling | `America/Santiago` |
-| `PTERODACTYL_URL` | The root URL of your Pterodactyl Panel instance | `https://pterodactyl.yourdomain.com` |
-| `PTERODACTYL_APP_KEY` | The **Application** API KEY of your Pterodactyl Panel | `super_long_secret_application_api_key` |
-| `PTERODACTYL_CLI_KEY` | The **Client** API KEY of your Pterodactyl Panel | `super_long_secret_client_api_key` |
-| `POSTGRES_HOST` | The Host address of your PostgreSQL instance | `postgres.yourdomain.com` |
-| `POSTGRES_PORT` | The Port number to connect to your PostgreSQL instance | `5432` |
-| `POSTGRES_DATABASE` | The name of the PostgreSQL database for Pterodactyl | `pterodactyl` |
-| `POSTGRES_USERNAME` | The Username for connecting to your PostgreSQL instance | `username` |
-| `POSTGRES_PASSWORD` | The Password for authenticating as the PostgreSQL User | `password` |
+| Variable Name         | Description                                              | Example Value                           |
+|-----------------------|----------------------------------------------------------|-----------------------------------------|
+| `TZ`                  | Set the time zone for appropriate task scheduling.       | `America/Santiago`                      |
+| `PTERODACTYL_URL`     | The root URL of your Pterodactyl Panel instance.         | `https://pterodactyl.yourdomain.com`    |
+| `PTERODACTYL_APP_KEY` | The **Application** API KEY of your Pterodactyl Panel.   | `super_long_secret_application_api_key` |
+| `PTERODACTYL_CLI_KEY` | The **Client** API KEY of your Pterodactyl Panel.        | `super_long_secret_client_api_key`      |
+| `POSTGRES_HOST`       | The Host address of your PostgreSQL instance.            | `postgres.yourdomain.com`               |
+| `POSTGRES_PORT`       | The Port number to connect to your PostgreSQL instance.  | `5432`                                  |
+| `POSTGRES_DATABASE`   | The name of the PostgreSQL database for Pterodactyl.     | `pterodactyl`                           |
+| `POSTGRES_USERNAME`   | The Username for connecting to your PostgreSQL instance. | `username`                              |
+| `POSTGRES_PASSWORD`   | The Password for authenticating as the PostgreSQL User.  | `password`                              |
 
 > Currently, the exclusive method for adjusting the time scheduling of individual tasks is by modifying the [scheduler.py](dockerfile/scheduler.py) file and subsequently rebuilding the Docker image.
