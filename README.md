@@ -22,7 +22,7 @@ The primary objective of this project is to retrieve information from Pterodacty
 
 The initial and crucial step for utilizing this project is to ensure the presence of an active and operational [Pterodactyl](https://pterodactyl.io) Panel and Wings instance, as it serves as the primary source of information throughout the project.
 
-Subsequently, you must have a PostgreSQL database in place. Alternatively, if you possess database expertise, you can opt for another SQL database and modify the code accordingly based on its requirements. Within this database, it is imperative to include the tables outlined in [postgres_tables_and_views](/postgres_tables_and_views), along with the specified relationships between them, as illustrated below.
+Subsequently, you must have a PostgreSQL database in place. Alternatively, if you possess database expertise, you can opt for another SQL database and modify the code accordingly based on its requirements. Within this database, it is imperative to include the tables outlined in [postgres_datawarehouse](/postgres_datawarehouse), along with the specified relationships between them, as illustrated below.
 
 ![ERD/ERM](images/ERD_pterodactyl.jpg)
 
