@@ -4,6 +4,10 @@ This project comprises several pipelines, which are outlined in the development 
 
 ## Context and different types of loads
 
+Before utilizing this project, please ensure that you have set up your own `.env` file. You can use `.env.example` as a template by copying it and then configuring your specific environment variables in the newly created `.env` file. Additionally, make sure to install the libraries listed in `requirements.txt` before using the notebooks.
+
+Below, you will find a table detailing various types of data loads along with their explanations. Familiarizing yourself with this information will be beneficial as you proceed through the documentation.
+
 | Type of Load                  | Description                                               |
 |-------------------------------|-----------------------------------------------------------|
 | `FULL LOAD`                   | Completely replaces the existing data in the target system with a fresh copy from the source, ensuring an exact replica. |
