@@ -14,7 +14,7 @@ CREATE TABLE pterodactyl.locations (
 
 CREATE TABLE pterodactyl.nests (
 	id int8 PRIMARY KEY,
-	uuid text NOT NULL,
+	uuid text NOT NULL UNIQUE,
 	"name" text NOT NULL,
 	description text NULL,
 	author text NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE pterodactyl.nests (
 
 CREATE TABLE pterodactyl.eggs (
 	id int8 PRIMARY KEY,
-	uuid text NOT NULL,
+	uuid text NOT NULL UNIQUE,
 	"name" text NOT NULL,
 	description text NULL,
 	nest_id int8 NOT NULL REFERENCES pterodactyl.nests(id),
@@ -37,7 +37,7 @@ CREATE TABLE pterodactyl.eggs (
 
 CREATE TABLE pterodactyl.nodes (
 	id int8 PRIMARY KEY,
-	uuid text NOT NULL,
+	uuid text NOT NULL UNIQUE,
 	public bool NOT NULL,
 	"name" text NOT NULL,
 	description text NULL,
@@ -69,8 +69,8 @@ CREATE TABLE pterodactyl.allocations (
 
 CREATE TABLE pterodactyl.servers (
 	id int8 PRIMARY KEY,
-	uuid text NOT NULL,
-	identifier text NOT NULL,
+	uuid text NOT NULL UNIQUE,
+	identifier text NOT NULL UNIQUE,
 	"name" text NOT NULL,
 	description text NULL,
 	limit_memory int8 NOT NULL,
@@ -92,9 +92,9 @@ CREATE TABLE pterodactyl.servers (
 
 CREATE TABLE pterodactyl.clients (
 	id int8 PRIMARY KEY,
-	uuid text NOT NULL,
+	uuid text NOT NULL UNIQUE,
 	client_name text NOT NULL,
-	email text NOT NULL,
+	email text NOT NULL UNIQUE,
 	first_name text NULL,
 	last_name text NULL,
 	"admin" bool NOT NULL,
@@ -135,22 +135,4 @@ CREATE TABLE pterodactyl.utilization (
 
 CREATE TABLE pterodactyl.last_update (
 	date timestamptz NOT NULL
-);
-
--- CREATE ANALYSIS VIEW
-CREATE OR REPLACE VIEW pterodactyl.activity_analysis
-AS (
-    SELECT s.identifier,
-        s.name,
-        COUNT(DISTINCT CASE WHEN a."user" <> 'server' THEN a."user" END) AS total_users,
-        COUNT(a.activity) AS total_activity,
-        COUNT(DISTINCT CASE WHEN a.date >= CURRENT_DATE - INTERVAL '7 days' AND a."user" <> 'server' THEN a."user" END) AS last_week_active_users,
-        COUNT(CASE WHEN a.date >= CURRENT_DATE - INTERVAL '7 days' THEN a.activity END) AS last_week_activity,
-        COUNT(DISTINCT CASE WHEN a.date >= CURRENT_DATE - INTERVAL '30 days' AND a."user" <> 'server' THEN a."user" END) AS last_month_active_users,
-        COUNT(CASE WHEN a.date >= CURRENT_DATE - INTERVAL '30 days' THEN a.activity END) AS last_month_activity,
-        MAX(a.date) AS last_activity_date
-    FROM pterodactyl.activity AS a
-    INNER JOIN pterodactyl.servers AS s
-        ON a.server_id = s.identifier
-    GROUP BY s.identifier, s.name
 );
