@@ -22,7 +22,7 @@ The primary objective of this project is to retrieve information from Pterodacty
 
 The initial and crucial step for utilizing this project is to ensure the presence of an active and operational [Pterodactyl](https://pterodactyl.io) Panel and Wings instance, as it serves as the primary source of information throughout the project.
 
-Subsequently, you must have a PostgreSQL database in place. Alternatively, if you possess database expertise, you can opt for another SQL database and modify the code accordingly based on its requirements. Within this database, it is imperative to include the tables outlined in [postgres_tables_and_views](/postgres_tables_and_views), along with the specified relationships between them, as illustrated below.
+Subsequently, you must have a PostgreSQL database in place. Alternatively, if you possess database expertise, you can opt for another SQL database and modify the code accordingly based on its requirements. Within this database, it is imperative to include the tables outlined in [postgres_datawarehouse](/postgres_datawarehouse), along with the specified relationships between them, as illustrated below.
 
 ![ERD/ERM](images/ERD_pterodactyl.jpg)
 
@@ -93,16 +93,16 @@ docker compose up -d --build
 
 ## Environment Variables
 
-| Variable Name     | Description                             | Example Value        |
-|-------------------|-----------------------------------------|----------------------|
-| `TZ` | Set the time zone for appropriate task scheduling | `America/Santiago` |
-| `PTERODACTYL_URL` | The root URL of your Pterodactyl Panel instance | `https://pterodactyl.yourdomain.com` |
-| `PTERODACTYL_APP_KEY` | The **Application** API KEY of your Pterodactyl Panel | `super_long_secret_application_api_key` |
-| `PTERODACTYL_CLI_KEY` | The **Client** API KEY of your Pterodactyl Panel | `super_long_secret_client_api_key` |
-| `POSTGRES_HOST` | The Host address of your PostgreSQL instance | `postgres.yourdomain.com` |
-| `POSTGRES_PORT` | The Port number to connect to your PostgreSQL instance | `5432` |
-| `POSTGRES_DATABASE` | The name of the PostgreSQL database for Pterodactyl | `pterodactyl` |
-| `POSTGRES_USERNAME` | The Username for connecting to your PostgreSQL instance | `username` |
-| `POSTGRES_PASSWORD` | The Password for authenticating as the PostgreSQL User | `password` |
+| Variable Name         | Description                                              | Example Value                           |
+|-----------------------|----------------------------------------------------------|-----------------------------------------|
+| `TZ`                  | Set the time zone for appropriate task scheduling.       | `America/Santiago`                      |
+| `PTERODACTYL_URL`     | The root URL of your Pterodactyl Panel instance.         | `https://pterodactyl.yourdomain.com`    |
+| `PTERODACTYL_APP_KEY` | The **Application** API KEY of your Pterodactyl Panel.   | `super_long_secret_application_api_key` |
+| `PTERODACTYL_CLI_KEY` | The **Client** API KEY of your Pterodactyl Panel.        | `super_long_secret_client_api_key`      |
+| `POSTGRES_HOST`       | The Host address of your PostgreSQL instance.            | `postgres.yourdomain.com`               |
+| `POSTGRES_PORT`       | The Port number to connect to your PostgreSQL instance.  | `5432`                                  |
+| `POSTGRES_DATABASE`   | The name of the PostgreSQL database for Pterodactyl.     | `pterodactyl`                           |
+| `POSTGRES_USERNAME`   | The Username for connecting to your PostgreSQL instance. | `username`                              |
+| `POSTGRES_PASSWORD`   | The Password for authenticating as the PostgreSQL User.  | `password`                              |
 
 > Currently, the exclusive method for adjusting the time scheduling of individual tasks is by modifying the [scheduler.py](dockerfile/scheduler.py) file and subsequently rebuilding the Docker image.

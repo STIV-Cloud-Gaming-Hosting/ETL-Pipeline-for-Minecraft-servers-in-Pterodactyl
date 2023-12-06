@@ -1,7 +1,7 @@
 -- CREATE SCHEMA 
 CREATE SCHEMA pterodactyl;
 
--- TABLES FROM PTERODACTYL APP DATA
+-- TABLES FOR PTERODACTYL APP DATA
 
 CREATE TABLE pterodactyl.locations (
 	id int8 PRIMARY KEY,
@@ -111,16 +111,6 @@ CREATE TABLE pterodactyl.clients_server (
 	created_at timestamptz NOT NULL,
 	updated_at timestamptz NOT NULL,
 	is_active bool DEFAULT true NOT NULL
-);
-
-CREATE TABLE pterodactyl.activity (
-	id SERIAL PRIMARY KEY,
-	server_identifier VARCHAR(8) NOT NULL REFERENCES pterodactyl.servers(identifier),
-	date DATE NOT NULL,
-	time TIME NOT NULL,
-	information text,
-	"user" VARCHAR(50),
-	activity VARCHAR(6)
 );
 
 CREATE TABLE pterodactyl.utilization (
