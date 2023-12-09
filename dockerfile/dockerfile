@@ -37,9 +37,7 @@ RUN apt update && \
 RUN apt install -y \
         python3 \
         python3-pip \
-        moreutils \
-        libpq-dev \
-        gcc
+        moreutils
 
 # Install the dependencies for python script
 RUN pip install wheel setuptools pip --upgrade
