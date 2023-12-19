@@ -6,7 +6,7 @@ CREATE SCHEMA pterodactyl_update;
 CREATE TABLE pterodactyl_update.locations_update (
 	id int8 PRIMARY KEY,
 	short text NOT NULL,
-	long float8 NULL,
+	long text NULL,
 	created_at timestamptz NOT NULL,
 	updated_at timestamptz NOT NULL
 );

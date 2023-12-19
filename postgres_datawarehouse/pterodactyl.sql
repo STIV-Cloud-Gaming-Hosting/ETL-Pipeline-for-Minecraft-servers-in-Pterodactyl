@@ -6,7 +6,7 @@ CREATE SCHEMA pterodactyl;
 CREATE TABLE pterodactyl.locations (
 	id int8 PRIMARY KEY,
 	short text NOT NULL,
-	long float8 NULL,
+	long text NULL,
 	created_at timestamptz NOT NULL,
 	updated_at timestamptz NOT NULL,
 	is_active bool DEFAULT true NOT NULL
