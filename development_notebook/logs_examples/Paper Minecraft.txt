@@ -1,0 +1,66 @@
+[14:35:39 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:35:41 INFO]: Loaded 1174 recipes
+[14:35:41 INFO]: Loaded 1271 advancements
+[14:35:41 INFO]: Starting minecraft server version 1.20.4
+[14:35:41 INFO]: Loading properties
+[14:35:41 INFO]: This server is running Paper version git-Paper-342 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 49f9f6f)
+[14:35:42 INFO]: Server Ping Player Sample Count: 12
+[14:35:42 INFO]: Using 4 threads for Netty based IO
+[14:35:42 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[14:35:42 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
+[14:35:42 INFO]: Default game type: SURVIVAL
+[14:35:42 INFO]: Generating keypair
+[14:35:42 INFO]: Starting Minecraft server on 0.0.0.0:27002
+[14:35:42 INFO]: Using epoll channel type
+[14:35:42 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:35:42 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[14:35:43 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:35:43 INFO]: Preparing level "world"
+[14:35:43 INFO]: Preparing start region for dimension minecraft:overworld
+[14:35:44 INFO]: Time elapsed: 514 ms
+[14:35:44 INFO]: Preparing start region for dimension minecraft:the_nether
+[14:35:44 INFO]: Time elapsed: 152 ms
+[14:35:44 INFO]: Preparing start region for dimension minecraft:the_end
+[14:35:45 INFO]: Time elapsed: 1419 ms
+[14:35:45 INFO]: Running delayed init tasks
+[14:35:45 INFO]: Done (4.148s)! For help, type "help"
+container@pterodactyl~ Server marked as running...
+[14:35:45 INFO]: Timings Reset
+[14:37:14 INFO]: UUID of player NachinWachin21 is 7d40c306-cb47-4c9d-9aed-bd80c628faf5
+[14:37:14 INFO]: NachinWachin21 joined the game
+[14:37:14 INFO]: NachinWachin21[/179.60.77.8:19305] logged in with entity id 127 at ([world]14.5, 77.0, 70.5)
+[14:37:39 INFO]: <NachinWachin21> hola
+[14:38:06 INFO]: NachinWachin21 has made the advancement [Stone Age]
+[14:38:30 INFO]: NachinWachin21 lost connection: Disconnected
+[14:38:30 INFO]: NachinWachin21 left the game
+container@pterodactyl~ Server marked as stopping...
+stop
+[14:38:37 INFO]: Stopping the server
+[14:38:37 INFO]: Stopping server
+[14:38:37 INFO]: Saving players
+[14:38:37 INFO]: Saving worlds
+[14:38:37 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:38:37 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:38:37 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:38:37 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:38:39 INFO]: [ChunkHolderManager] Saved 2057 block chunks, 710 entity chunks, 1 poi chunks in world 'world' in 2.13s
+[14:38:40 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:38:40 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:38:40 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:38:40 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:38:40 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:38:40 INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.68s
+[14:38:40 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:38:40 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:38:40 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:38:40 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:38:40 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:38:40 INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
+[14:38:41 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:38:41 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:38:41 INFO]: Flushing Chunk IO
+[14:38:41 INFO]: Closing Thread Pool
+[14:38:41 INFO]: Closing Server
+container@pterodactyl~ Server marked as offline...

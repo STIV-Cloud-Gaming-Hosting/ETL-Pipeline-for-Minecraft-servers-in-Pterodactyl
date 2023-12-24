@@ -1,0 +1,27 @@
+[2023.11.27-01.07.42:771][  0]Log file open, 11/26/23 22:07:42
+[2023.11.27-01.07.42:772][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2023.11.27-01.07.42:772][  0]LogMemory: Process Physical Memory: 331.27 MB used, 338.05 MB peak
+[2023.11.27-01.07.42:772][  0]LogMemory: Process Virtual Memory: 304.22 MB used, 304.22 MB peak
+[2023.11.27-01.07.42:772][  0]LogMemory: Physical Memory: 2638.28 MB used,  13288.50 MB free, 15926.78 MB total
+[2023.11.27-01.07.42:772][  0]LogMemory: Virtual Memory: 2752.28 MB used,  17270.50 MB free, 20022.78 MB total
+[2023.11.27-01.07.43:817][  0]ARK Version: 26.27
+[2023.11.27-01.07.59:848][420]Primal Game Data Took 0.00 seconds
+[2023.11.27-01.09.37:255][420]Server: "Ark Testing" has successfully started!
+[2023.11.27-01.09.40:142][420]Commandline:  TheIsland_WP?listen?MaxPlayers=10?SessionName="Ark Testing"?Port=27000?QueryPort=27015?RCONPort=27016?RCONEnabled=True?ServerPVE=True?ServerPassword=?ServerAdminPassword=supersecretadminpasssord1234- -WinLiveMaxPlayers=10 -oldconsole -servergamelog -mods=933588,928793,930381,928988 -NoBattlEye -Port=27000
+[2023.11.27-01.09.40:142][420]Full Startup: 118.46 seconds
+[2023.11.27-01.09.40:142][420]Number of cores 6
+[2023.11.27-01.09.51:107][421]wp.Runtime.HLOD = "1"
+[2023.11.27-01.10.57:680][368]IP for incoming account 00026b2861a346bc8ee02500dc3edda1 - IP 167.250.54.139
+[2023.11.27-01.12.34:240][283]IP for incoming account 00026b2861a346bc8ee02500dc3edda1 - IP 167.250.54.139
+[2023.11.27-01.12.35:972][333]2023.11.27_01.12.35: TheRhelaxBaby joined this ARK!
+[2023.11.27-01.12.37:972][252]2023.11.27_01.12.37: Rhelax of Tribe Tribe of Rhelax Tamed a Baby Rex - Lvl 1 (Rex)!
+[2023.11.27-01.19.00:878][834]2023.11.27_01.19.00: TheRhelaxBaby left this ARK!
+[2023.11.27-01.19.18:224][356]IP for incoming account 00026b2861a346bc8ee02500dc3edda1 - IP 167.250.54.139
+[2023.11.27-01.19.20:284][416]2023.11.27_01.19.20: TheRhelaxBaby joined this ARK!
+[2023.11.27-01.23.01:598][ 14]2023.11.27_01.23.01: Saving world...
+[2023.11.27-01.23.01:612][ 14]2023.11.27_01.23.01: World Save Complete. Took: 1.160539
+[2023.11.27-01.26.15:140][851]2023.11.27_01.26.15: TheRhelaxBaby left this ARK!
+[2023.11.27-01.26.19:419][980]Closing by request
+[2023.11.27-01.26.20:576][981]2023.11.27_01.26.20: Saving world...
+[2023.11.27-01.26.20:586][981]2023.11.27_01.26.20: World Save Complete. Took: 1.095895
+[2023.11.27-01.26.32:834][981]Log file closed, 11/26/23 22:26:32
