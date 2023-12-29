@@ -1,0 +1,72 @@
+Server Start:
+Forge: 
+[21:26:41] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.16.5
+Paper:
+[14:35:41 INFO]: Starting minecraft server version 1.20.4
+Mohist:
+[13:52:38 INFO]: Starting minecraft server version 1.16.5
+Spigot:
+[18:14:11] [Server thread/INFO]: Starting minecraft server version 1.20.2
+Vanilla:
+[12:50:46] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:2700
+
+
+Server Stop:
+Forge: 
+[21:29:59] [Server thread/INFO] [minecraft/DedicatedServer]: Stopping the server
+Paper:
+[14:38:37 INFO]: Stopping the server
+Mohist:
+[13:55:27 INFO]: Stopping the server
+Spigot:
+[21:50:58] [Server thread/INFO]: Stopping the server
+Vanilla:
+[12:53:08] [Server thread/INFO]: Stopping the server
+
+
+Login:
+Forge: 
+[21:27:01] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 joined the game
+[21:27:01] [Server thread/INFO] [minecraft/PlayerList]: NachinWachin21[/179.60.77.8:19297] logged in with entity id 141 at (92.5, 70.0, 89.5)
+Paper:
+[14:37:14 INFO]: NachinWachin21 joined the game
+[14:37:14 INFO]: NachinWachin21[/179.60.77.8:19305] logged in with entity id 127 at ([world]14.5, 77.0, 70.5)
+Mohist:
+[13:53:00 INFO]: NachinWachin21[/179.60.77.8:19378] logged in with entity id 53 at (-113.5, 72, 12.5)
+Spigot:
+[18:14:37] [Server thread/INFO]: NachinWachin21 joined the game
+[18:14:37] [Server thread/INFO]: NachinWachin21[/179.60.77.8:19312] logged in with entity id 242 at ([world]-23.974296210866612, 69.0, -12.000089077309616)
+Vanilla:
+[12:51:20] [Server thread/INFO]: leadvic joined the game
+[12:51:20] [Server thread/INFO]: leadvic[/186.79.202.192:51770] logged in with entity id 77 at (-236.25399634446273, 149.0, -727.3000000119209)
+
+
+Logout
+Forge: 
+[21:29:09] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 left the game
+Paper:
+[14:38:30 INFO]: NachinWachin21 left the game
+Mohist:
+[13:54:05 INFO]: NachinWachin21 left the game
+Spigot:
+[18:15:53] [Server thread/INFO]: NachinWachin21 left the game
+Vanilla:
+[12:52:27] [Server thread/INFO]: leadvic left the game
+
+
+Action:
+Forge: 
+[21:28:17] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 has made the advancement [Stone Age]
+[21:28:25] [Server thread/INFO] [minecraft/DedicatedServer]: <NachinWachin21> hola
+[21:29:01] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 drowned
+Paper:
+[14:37:39 INFO]: <NachinWachin21> hola
+[14:38:06 INFO]: NachinWachin21 has made the advancement [Stone Age]
+Mohist:
+[13:53:14 INFO]: <NachinWachin21> hola
+[13:53:50 INFO]: NachinWachin21 has made the advancement [Stone Age]
+Spigot:
+[18:15:00] [Async Chat Thread - #1/INFO]: <NachinWachin21> hola
+[18:15:37] [Server thread/INFO]: NachinWachin21 has made the advancement [Stone Age]
+Vanilla:
+[12:51:53] [Server thread/INFO]: [Not Secure] <leadvic> aloha
