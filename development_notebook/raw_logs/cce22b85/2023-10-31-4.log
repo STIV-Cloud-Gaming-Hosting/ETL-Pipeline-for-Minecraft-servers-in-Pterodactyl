@@ -1,0 +1,229 @@
+[18:02:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:02:31] [ServerMain/INFO]: Loaded 7 recipes
+[18:02:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:02:32] [Server thread/INFO]: Loading properties
+[18:02:32] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[18:02:32] [Server thread/INFO]: Debug logging is disabled
+[18:02:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:02:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:02:32] [Server thread/INFO]: Default game type: SURVIVAL
+[18:02:32] [Server thread/INFO]: Generating keypair
+[18:02:32] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27012
+[18:02:32] [Server thread/INFO]: Using epoll channel type
+[18:02:33] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:02:37] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[18:02:37] [Server thread/WARN]: Legacy plugin AuthmeAddon v1.1.0 does not specify an api-version.
+[18:02:37] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:02:37] [Server thread/INFO]: [VoidWorld] Loading VoidWorld v1.0
+[18:02:37] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.12
+[18:02:37] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[18:02:38] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2597
+[18:02:38] [Server thread/INFO]: [AuthmeAddon] Loading AuthmeAddon v1.1.0
+[18:02:38] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[18:02:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@97db321]
+[18:02:38] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.4
+[18:02:38] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.9+5934e49
+[18:02:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:02:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:02:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:02:38] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0
+[18:02:38] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[18:02:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[18:02:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:02:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:02:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[18:02:39] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:02:39] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:02:39] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:02:39] [Server thread/INFO]: [WorldEdit]   
+[18:02:39] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[18:02:39] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[18:02:39] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[18:02:39] [Server thread/INFO]: [WorldEdit]   
+[18:02:39] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[18:02:39] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[18:02:39] [Server thread/INFO]: [WorldEdit]   
+[18:02:39] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[18:02:39] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[18:02:39] [Server thread/INFO]: [WorldEdit]   
+[18:02:39] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[18:02:39] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:02:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:02:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:02:39] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:02:39] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:02:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:02:39] [Server thread/INFO]: Preparing level "world"
+[18:02:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:02:39] [Server thread/INFO]: Mob Spawn Range: 6
+[18:02:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:02:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:02:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:02:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:02:39] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:39] [Server thread/INFO]: View Distance: 10
+[18:02:39] [Server thread/INFO]: Simulation Distance: 10
+[18:02:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:02:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:02:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:02:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:02:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:02:43] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[18:02:43] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[18:02:43] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[18:02:43] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[18:02:44] [Worker-Main-7/INFO]: Preparing spawn area: 32%
+[18:02:44] [Worker-Main-8/INFO]: Preparing spawn area: 86%
+[18:02:45] [Server thread/INFO]: Time elapsed: 4147 ms
+[18:02:45] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[18:02:45] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:02:45] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:02:45] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[18:02:45] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[18:02:45] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:02:45] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2597
+[18:02:45] [Server thread/INFO]: [AuthMe] Connection arguments loaded, Hikari ConnectionPool ready!
+[18:02:45] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Starting...
+[18:02:50] [Server thread/WARN]: [Server thread] ERROR fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool - AuthMeMYSQLPool - Exception during pool initialization.
+[18:02:50] [Server thread/WARN]: java.sql.SQLException: Access denied for user 's52_auth'@'10.0.0.2' (using password: YES)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.datasource.MySQL.getConnection(MySQL.java:185)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.datasource.MySQL.checkTablesAndColumns(MySQL.java:193)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.datasource.MySQL.<init>(MySQL.java:78)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.createDataSource(DataSourceProvider.java:68)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:50)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:26)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.handlers.instantiation.ProviderHandler$InstantiationByProviderClass.instantiateWith(ProviderHandler.java:129)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:245)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:145)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:460)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:588)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:413)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303)
+[18:02:50] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:02:50] [Server thread/WARN]: [AuthMe] Can't initialize the MySQL database: [SQLException]: Access denied for user 's52_auth'@'10.0.0.2' (using password: YES)
+[18:02:50] [Server thread/WARN]: [AuthMe] Please check your database settings in the config.yml file!
+[18:02:50] [Server thread/WARN]: [AuthMe] Could not create data source: [SQLException]: Access denied for user 's52_auth'@'10.0.0.2' (using password: YES)
+[18:02:50] [Server thread/WARN]: [AuthMe] Aborting initialization of AuthMe: [IllegalStateException]: Error during initialization of data source
+[18:02:50] [Server thread/WARN]: java.lang.IllegalStateException: Error during initialization of data source
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:53)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:26)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.handlers.instantiation.ProviderHandler$InstantiationByProviderClass.instantiateWith(ProviderHandler.java:129)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:245)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:145)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546)
+[18:02:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:460)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:588)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:413)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972)
+[18:02:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303)
+[18:02:50] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:02:50] [Server thread/WARN]: Caused by: java.sql.SQLException: Access denied for user 's52_auth'@'10.0.0.2' (using password: YES)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.datasource.MySQL.getConnection(MySQL.java:185)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.datasource.MySQL.checkTablesAndColumns(MySQL.java:193)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.datasource.MySQL.<init>(MySQL.java:78)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.createDataSource(DataSourceProvider.java:68)
+[18:02:50] [Server thread/WARN]: 	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:50)
+[18:02:50] [Server thread/WARN]: 	... 19 more
+[18:02:50] [Server thread/WARN]: [AuthMe] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[18:02:50] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[18:02:50] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2597 disabled!
+[18:02:50] [Server thread/INFO]: [AuthmeAddon] Enabling AuthmeAddon v1.1.0
+[18:02:50] [Server thread/INFO]: Authme addon enabled
+[18:02:50] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.4
+[18:02:50] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[18:02:50] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[18:02:50] [Server thread/WARN]: [WorldGuard] Loaded class fr.xephi.authme.libs.com.mysql.cj.jdbc.Driver from AuthMe v5.6.0-SNAPSHOT-b2597 which is not a depend or softdepend of this plugin.
+[18:02:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:02:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:02:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:02:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:02:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:02:51] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:02:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:02:51] [Server thread/INFO]: Done (11.453s)! For help, type "help"
+[18:02:51] [Server thread/INFO]: Stopping server
+[18:02:51] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[18:02:51] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:02:51] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.4
+[18:02:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[18:02:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:02:51] [Server thread/INFO]: [AuthmeAddon] Disabling AuthmeAddon v1.1.0
+[18:02:51] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[18:02:51] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[18:02:51] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[18:02:51] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:02:51] [Server thread/INFO]: Saving players
+[18:02:51] [Server thread/INFO]: Saving worlds
+[18:02:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:03:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:03:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

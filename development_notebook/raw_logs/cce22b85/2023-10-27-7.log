@@ -1,0 +1,179 @@
+[22:51:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:51:59] [ServerMain/INFO]: Loaded 7 recipes
+[22:52:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:52:00] [Server thread/INFO]: Loading properties
+[22:52:00] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[22:52:01] [Server thread/INFO]: Debug logging is disabled
+[22:52:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:52:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:52:01] [Server thread/INFO]: Default game type: SURVIVAL
+[22:52:01] [Server thread/INFO]: Generating keypair
+[22:52:01] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27012
+[22:52:01] [Server thread/INFO]: Using epoll channel type
+[22:52:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:52:05] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[22:52:05] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[22:52:05] [Server thread/INFO]: [VoidWorld] Loading VoidWorld v1.0
+[22:52:05] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.12
+[22:52:05] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[22:52:06] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2614
+[22:52:06] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[22:52:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@348f0171]
+[22:52:07] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.4
+[22:52:07] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.9+5934e49
+[22:52:07] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:52:07] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:52:07] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:52:07] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0
+[22:52:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[22:52:07] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[22:52:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:52:07] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:52:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[22:52:08] [Server thread/INFO]: [WorldEdit] ====================================================
+[22:52:08] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[22:52:08] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[22:52:08] [Server thread/INFO]: [WorldEdit]   
+[22:52:08] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[22:52:08] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[22:52:08] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[22:52:08] [Server thread/INFO]: [WorldEdit]   
+[22:52:08] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[22:52:08] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[22:52:08] [Server thread/INFO]: [WorldEdit]   
+[22:52:08] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[22:52:08] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[22:52:08] [Server thread/INFO]: [WorldEdit]   
+[22:52:08] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[22:52:08] [Server thread/INFO]: [WorldEdit] ====================================================
+[22:52:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:52:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:52:08] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[22:52:08] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[22:52:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:52:08] [Server thread/INFO]: Preparing level "world"
+[22:52:08] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:52:08] [Server thread/INFO]: Mob Spawn Range: 6
+[22:52:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:52:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[22:52:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:52:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:52:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:52:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:52:08] [Server thread/INFO]: Max TNT Explosions: 100
+[22:52:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:52:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:52:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:52:08] [Server thread/INFO]: View Distance: 10
+[22:52:08] [Server thread/INFO]: Simulation Distance: 10
+[22:52:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:52:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:52:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:52:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:52:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:52:11] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[22:52:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:52:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:52:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:52:11] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[22:52:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:52:12] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[22:52:13] [Worker-Main-19/INFO]: Preparing spawn area: 66%
+[22:52:13] [Server thread/INFO]: Time elapsed: 3962 ms
+[22:52:13] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[22:52:13] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:52:13] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:52:13] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:52:13] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[22:52:13] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[22:52:13] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2614
+[22:52:13] [Server thread/INFO]: [AuthMe] Connection arguments loaded, Hikari ConnectionPool ready!
+[22:52:13] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Starting...
+[22:52:18] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Start completed.
+[22:52:18] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1698803538692, to all 0 rows
+[22:52:19] [Server thread/INFO]: [AuthMe] MySQL setup finished
+[22:52:19] [Server thread/INFO]: [AuthMe] Hooked into Vault!
+[22:52:19] [Server thread/INFO]: [AuthMe] Added 1 missing keys to your messages_xx.yml file: [error.kick_unresolved_hostname]
+[22:52:19] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[22:52:19] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2614 successfully enabled!
+[22:52:19] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.4
+[22:52:19] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[22:52:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[22:52:19] [Server thread/WARN]: [WorldGuard] Loaded class fr.xephi.authme.libs.com.mysql.cj.jdbc.Driver from AuthMe v5.6.0-SNAPSHOT-b2614 which is not a depend or softdepend of this plugin.
+[22:52:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:52:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:52:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:52:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:52:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:52:20] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:52:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:52:20] [Server thread/INFO]: Done (11.679s)! For help, type "help"
+[22:52:20] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[22:52:24] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[22:53:27] [User Authenticator #1/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[22:53:27] [Server thread/INFO]: Indominux joined the game
+[22:53:27] [Server thread/INFO]: Indominux[/186.53.159.201:51215] logged in with entity id 1 at ([world]1.6978366834800795, 142.0, 12.809969157240806)
+[22:53:57] [Server thread/INFO]: Indominux lost connection: Disconnected
+[22:53:57] [Server thread/INFO]: Indominux left the game
+[22:54:15] [User Authenticator #2/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[22:54:15] [Server thread/INFO]: Indominux joined the game
+[22:54:15] [Server thread/INFO]: Indominux[/186.53.159.201:40301] logged in with entity id 2 at ([world]1.6978366834800795, 142.0, 12.809969157240806)
+[22:54:45] [Server thread/INFO]: Indominux lost connection: Disconnected
+[22:54:45] [Server thread/INFO]: Indominux left the game
+[22:55:00] [User Authenticator #3/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[22:55:00] [Server thread/INFO]: Indominux joined the game
+[22:55:00] [Server thread/INFO]: Indominux[/186.53.159.201:49903] logged in with entity id 3 at ([world]1.6978366834800795, 142.0, 12.809969157240806)
+[22:55:16] [Server thread/INFO]: [AuthMe] Indominux registered 186.53.159.201
+[22:55:16] [Craft Scheduler Thread - 5/INFO]: [AuthMe] Indominux logged in 186.53.159.201
+[23:00:20] [Server thread/INFO]: Made Indominux a server operator
+[23:00:56] [Server thread/INFO]: Indominux issued server command: /gamemode creative
+[23:00:56] [Server thread/INFO]: [Indominux: Set own game mode to Creative Mode]
+[23:04:24] [Server thread/INFO]: Indominux issued server command: /authme setspawn
+[23:04:32] [Server thread/INFO]: Indominux issued server command: /authme setfirstspawn
+[23:04:41] [Server thread/INFO]: Indominux lost connection: Disconnected
+[23:04:41] [Server thread/INFO]: Indominux left the game
+[23:04:46] [User Authenticator #4/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[23:04:46] [Server thread/INFO]: Indominux joined the game
+[23:04:46] [Server thread/INFO]: Indominux[/186.53.159.201:52533] logged in with entity id 4 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[23:04:57] [Craft Scheduler Thread - 7/INFO]: [AuthMe] Indominux logged in 186.53.159.201
+[23:09:59] [Server thread/INFO]: Stopping the server
+[23:09:59] [Server thread/INFO]: Stopping server
+[23:09:59] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[23:09:59] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[23:09:59] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.4
+[23:09:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[23:09:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:09:59] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2614
+[23:09:59] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[23:09:59] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown initiated...
+[23:09:59] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown completed.
+[23:09:59] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2614 disabled!
+[23:09:59] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[23:09:59] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[23:09:59] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[23:09:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:09:59] [Server thread/INFO]: Saving players
+[23:09:59] [Server thread/INFO]: Indominux lost connection: Server closed
+[23:09:59] [Server thread/INFO]: Indominux left the game.
+[23:09:59] [Server thread/INFO]: Saving worlds
+[23:10:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

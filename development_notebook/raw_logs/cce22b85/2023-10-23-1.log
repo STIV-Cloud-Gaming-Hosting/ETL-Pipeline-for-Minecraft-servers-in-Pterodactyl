@@ -1,0 +1,53 @@
+[05:36:12] [Craft Scheduler Thread - 75/INFO]: [Vault] Checking for Updates ... 
+[05:36:16] [Craft Scheduler Thread - 75/INFO]: [Vault] No new version available
+[11:36:12] [Craft Scheduler Thread - 147/INFO]: [Vault] Checking for Updates ... 
+[11:36:16] [Craft Scheduler Thread - 147/INFO]: [Vault] No new version available
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@3f490299 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@228ee547 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@2dc407e4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@5aee950f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@15c3534a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@40322868 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@4dc4fcad (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@63ac5ef7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@6cfa08cb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:10] [User Authenticator #4/WARN]: [User Authenticator #4] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@3d5a1c54 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:14:14] [User Authenticator #4/INFO]: UUID of player Fermagi is 4fb3b71d-7334-3ca8-8858-35ecf8816e36
+[12:14:14] [Server thread/INFO]: Fermagi joined the game
+[12:14:14] [Server thread/INFO]: Fermagi[/179.24.120.154:40059] logged in with entity id 4 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[12:14:27] [Server thread/INFO]: [AuthMe] Fermagi registered 179.24.120.154
+[12:14:27] [Craft Scheduler Thread - 157/INFO]: [AuthMe] Fermagi logged in 179.24.120.154
+[12:16:25] [Server thread/INFO]: Fermagi lost connection: Disconnected
+[12:16:25] [Server thread/INFO]: Fermagi left the game
+[12:16:27] [User Authenticator #5/INFO]: UUID of player Fermagi is 4fb3b71d-7334-3ca8-8858-35ecf8816e36
+[12:16:27] [Server thread/INFO]: Fermagi joined the game
+[12:16:27] [Server thread/INFO]: Fermagi[/179.24.120.154:34953] logged in with entity id 5 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[12:16:38] [Craft Scheduler Thread - 160/INFO]: [AuthMe] Fermagi logged in 179.24.120.154
+[12:16:43] [Server thread/INFO]: Fermagi lost connection: Disconnected
+[12:16:43] [Server thread/INFO]: Fermagi left the game
+[12:21:32] [User Authenticator #6/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[12:21:33] [Server thread/INFO]: Indominux joined the game
+[12:21:33] [Server thread/INFO]: Indominux[/179.24.120.154:59945] logged in with entity id 6 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[12:21:41] [Craft Scheduler Thread - 162/INFO]: [AuthMe] Indominux logged in 179.24.120.154
+[12:21:46] [Server thread/INFO]: Indominux lost connection: Disconnected
+[12:21:46] [Server thread/INFO]: Indominux left the game
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@48c316a9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@423b7dd9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@739fbfa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@579fd3ea (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@3674ba21 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@2f38cc83 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@671604b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@4e3f9b3e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@5d89956a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:04] [User Authenticator #7/WARN]: [User Authenticator #7] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@343c068c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[12:41:08] [User Authenticator #7/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[12:41:08] [Server thread/INFO]: Indominux joined the game
+[12:41:08] [Server thread/INFO]: Indominux[/179.24.120.154:47957] logged in with entity id 7 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[12:41:15] [Craft Scheduler Thread - 166/INFO]: [AuthMe] Indominux logged in 179.24.120.154
+[12:41:20] [Server thread/INFO]: Indominux lost connection: Disconnected
+[12:41:20] [Server thread/INFO]: Indominux left the game
+[17:36:12] [Craft Scheduler Thread - 225/INFO]: [Vault] Checking for Updates ... 
+[17:36:16] [Craft Scheduler Thread - 225/INFO]: [Vault] No new version available
+[23:36:12] [Craft Scheduler Thread - 297/INFO]: [Vault] Checking for Updates ... 
+[23:36:16] [Craft Scheduler Thread - 297/INFO]: [Vault] No new version available

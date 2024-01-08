@@ -1,0 +1,27 @@
+[01:50:24] [Craft Scheduler Thread - 290/INFO]: [Vault] Checking for Updates ... 
+[01:50:28] [Craft Scheduler Thread - 290/INFO]: [Vault] No new version available
+[07:50:24] [Craft Scheduler Thread - 362/INFO]: [Vault] Checking for Updates ... 
+[07:50:28] [Craft Scheduler Thread - 362/INFO]: [Vault] No new version available
+[13:50:24] [Craft Scheduler Thread - 434/INFO]: [Vault] Checking for Updates ... 
+[13:50:28] [Craft Scheduler Thread - 434/INFO]: [Vault] No new version available
+[14:36:19] [Server thread/INFO]: Stopping the server
+[14:36:19] [Server thread/INFO]: Stopping server
+[14:36:19] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[14:36:19] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:36:19] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.4
+[14:36:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[14:36:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:36:19] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2614
+[14:36:19] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[14:36:19] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown initiated...
+[14:36:19] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown completed.
+[14:36:19] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2614 disabled!
+[14:36:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[14:36:19] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[14:36:19] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[14:36:19] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:36:19] [Server thread/INFO]: Saving players
+[14:36:19] [Server thread/INFO]: Saving worlds
+[14:36:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:36:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:36:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,25 @@
+[05:58:44] [Craft Scheduler Thread - 1237/INFO]: [Vault] Checking for Updates ... 
+[05:58:44] [Craft Scheduler Thread - 1237/INFO]: [Vault] No new version available
+[11:58:44] [Craft Scheduler Thread - 1309/INFO]: [Vault] Checking for Updates ... 
+[11:58:44] [Craft Scheduler Thread - 1309/INFO]: [Vault] No new version available
+[13:34:52] [Server thread/INFO]: Stopping the server
+[13:34:52] [Server thread/INFO]: Stopping server
+[13:34:52] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[13:34:52] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[13:34:52] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.4
+[13:34:52] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[13:34:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:34:52] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2614
+[13:34:52] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[13:34:52] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown initiated...
+[13:34:52] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown completed.
+[13:34:52] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2614 disabled!
+[13:34:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[13:34:52] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[13:34:52] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[13:34:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:34:52] [Server thread/INFO]: Saving players
+[13:34:52] [Server thread/INFO]: Saving worlds
+[13:34:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:35:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:35:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

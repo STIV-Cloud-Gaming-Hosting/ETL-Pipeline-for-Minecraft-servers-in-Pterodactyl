@@ -1,0 +1,14 @@
+[00:00:23] [Server thread/INFO]: Indominux issued server command: /up1
+[00:01:10] [Server thread/INFO]: Stopping the server
+[00:01:10] [Server thread/INFO]: Stopping server
+[00:01:10] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[00:01:10] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[00:01:10] [Server thread/INFO]: Saving players
+[00:01:10] [Server thread/INFO]: Indominux lost connection: Server closed
+[00:01:10] [Server thread/INFO]: Indominux left the game.
+[00:01:10] [Server thread/INFO]: Saving worlds
+[00:01:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:01:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[vacio]'/minecraft:vacio
+[00:01:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:01:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (vacio): All chunks are saved
+[00:01:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

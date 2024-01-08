@@ -1,0 +1,195 @@
+[00:09:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:09:15] [ServerMain/INFO]: Loaded 7 recipes
+[00:09:16] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:09:16] [Server thread/INFO]: Loading properties
+[00:09:16] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[00:09:16] [Server thread/INFO]: Debug logging is disabled
+[00:09:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:09:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:09:16] [Server thread/INFO]: Default game type: SURVIVAL
+[00:09:16] [Server thread/INFO]: Generating keypair
+[00:09:17] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27012
+[00:09:17] [Server thread/INFO]: Using epoll channel type
+[00:09:17] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[00:09:21] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[00:09:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:09:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6e106753]
+[00:09:21] [Server thread/ERROR]: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found initializing WorldEdit v7.2.10+1742f98 (Is it up to date?)
+java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:301) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:300) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:95) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:104) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onLoad(WorldEditPlugin.java:141) ~[?:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:440) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[00:09:21] [Server thread/INFO]: [VoidWorld] Loading VoidWorld v1.0
+[00:09:21] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.12
+[00:09:21] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[00:09:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:09:22] [Server thread/ERROR]: Could not dispatch event: com.sk89q.worldedit.event.platform.PlatformsRegisteredEvent@7fbd251d to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:160) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:460) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:220) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.LocalConfiguration.getWorkingDirectoryPath()" because the return value of "com.sk89q.worldedit.WorldEdit.getConfiguration()" is null
+	at com.sk89q.worldedit.WorldEdit.getWorkingDirectoryPath(WorldEdit.java:461) ~[?:?]
+	at com.sk89q.worldedit.util.asset.AssetLoaders.init(AssetLoaders.java:67) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.Capability$2.initialize(Capability.java:55) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.choosePreferred(PlatformManager.java:193) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlatformsRegistered(PlatformManager.java:319) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 12 more
+[00:09:22] [Server thread/ERROR]: Error occurred while enabling WorldEdit v7.2.10+1742f98 (Is it up to date?)
+java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:301) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:300) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:95) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.loadConfig(PermissionsResolverManager.java:197) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.<init>(PermissionsResolverManager.java:103) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.initialize(PermissionsResolverManager.java:67) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:162) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:460) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:220) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[00:09:22] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0
+[00:09:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:09:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:09:22] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:09:22] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[00:09:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:09:22] [Server thread/INFO]: Preparing level "world"
+[00:09:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:09:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:09:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:09:22] [Server thread/INFO]: View Distance: 10
+[00:09:22] [Server thread/INFO]: Simulation Distance: 10
+[00:09:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:09:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:09:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:09:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:09:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[00:09:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:09:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[00:09:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[00:09:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:09:22] [Server thread/INFO]: Max TNT Explosions: 100
+[00:09:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:09:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:09:22] [Server thread/INFO]: Mob Spawn Range: 6
+[00:09:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:09:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:09:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:09:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:09:24] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[00:09:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:09:24] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[00:09:25] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[00:09:25] [Worker-Main-22/INFO]: Preparing spawn area: 29%
+[00:09:26] [Worker-Main-20/INFO]: Preparing spawn area: 80%
+[00:09:26] [Server thread/INFO]: Time elapsed: 4230 ms
+[00:09:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[00:09:26] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[00:09:26] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[00:09:26] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[00:09:26] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[00:09:26] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[00:09:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[00:09:26] [Server thread/ERROR]: Error occurred while enabling WorldGuard v7.0.7+216b061 (Is it up to date?)
+java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:301) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:300) ~[?:?]
+	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:95) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.loadConfig(PermissionsResolverManager.java:197) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.<init>(PermissionsResolverManager.java:103) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.initialize(PermissionsResolverManager.java:67) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.onEnable(WorldGuardPlugin.java:147) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:460) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:588) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:413) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[00:09:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:09:26] [Server thread/INFO]: Done (4.748s)! For help, type "help"
+[00:13:01] [User Authenticator #1/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:13:01] [Server thread/INFO]: Indominux joined the game
+[00:13:01] [Server thread/INFO]: Indominux[/186.54.231.140:35313] logged in with entity id 1 at ([world]0.0, -1467.6238471483439, 0.0)
+[00:13:03] [Server thread/INFO]: Indominux fell out of the world
+[00:13:25] [Server thread/INFO]: Made Indominux a server operator
+[00:13:34] [Server thread/INFO]: Indominux issued server command: /gmc
+[00:13:37] [Server thread/INFO]: Indominux fell out of the world
+[00:13:52] [Server thread/INFO]: Set Indominux's game mode to Creative Mode
+[00:14:22] [Server thread/INFO]: Indominux issued server command: /up1
+[00:14:32] [Server thread/INFO]: Indominux issued server command: //pos1
+[00:15:38] [Server thread/INFO]: Stopping the server
+[00:15:38] [Server thread/INFO]: Stopping server
+[00:15:38] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[00:15:38] [Server thread/ERROR]: Error occurred while disabling WorldGuard v7.0.7+216b061 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.google.common.util.concurrent.ListeningExecutorService.shutdown()" because "this.executorService" is null
+	at com.sk89q.worldguard.WorldGuard.disable(WorldGuard.java:184) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.onDisable(WorldGuardPlugin.java:267) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:268) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.disablePlugins(CraftServer.java:480) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:864) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.t(DedicatedServer.java:692) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1047) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[00:15:38] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[00:15:38] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[00:15:38] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[00:15:38] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:15:38] [Server thread/INFO]: Saving players
+[00:15:38] [Server thread/INFO]: Indominux lost connection: Server closed
+[00:15:38] [Server thread/INFO]: Indominux left the game.
+[00:15:39] [Server thread/INFO]: Saving worlds
+[00:15:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:15:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:15:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

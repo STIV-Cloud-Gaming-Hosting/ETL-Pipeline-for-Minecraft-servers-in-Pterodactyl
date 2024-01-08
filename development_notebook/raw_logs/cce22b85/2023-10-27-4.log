@@ -1,0 +1,57 @@
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@2e20aa72 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@61da4bfd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@4a020e8e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@50f18f79 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@32c394b4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@1f5b4b2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@5b59ac7c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@78f6a29 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@29c73858 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:35] [User Authenticator #5/WARN]: [User Authenticator #5] WARN fr.xephi.authme.libs.com.zaxxer.hikari.pool.PoolBase - AuthMeMYSQLPool - Failed to validate connection fr.xephi.authme.libs.com.mysql.cj.jdbc.ConnectionImpl@5bb49f6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[00:27:39] [User Authenticator #5/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:27:39] [Server thread/INFO]: Indominux joined the game
+[00:27:39] [Server thread/INFO]: Indominux[/186.53.159.201:37673] logged in with entity id 5 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:27:42] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:27:42] [Server thread/INFO]: Indominux left the game
+[00:27:43] [User Authenticator #6/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:27:43] [Server thread/INFO]: Indominux joined the game
+[00:27:43] [Server thread/INFO]: Indominux[/186.53.159.201:56517] logged in with entity id 6 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:27:57] [Craft Scheduler Thread - 20/INFO]: [AuthMe] Indominux logged in 186.53.159.201
+[00:28:02] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:28:02] [Server thread/INFO]: Indominux left the game
+[00:28:37] [User Authenticator #7/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:28:38] [Server thread/INFO]: Indominux joined the game
+[00:28:38] [Server thread/INFO]: Indominux[/186.53.159.201:37409] logged in with entity id 7 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:28:43] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:28:43] [Server thread/INFO]: Indominux left the game
+[00:28:44] [User Authenticator #8/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:28:44] [Server thread/INFO]: Indominux joined the game
+[00:28:44] [Server thread/INFO]: Indominux[/186.53.159.201:37227] logged in with entity id 8 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:28:54] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:28:54] [Server thread/INFO]: Indominux left the game
+[00:28:55] [User Authenticator #9/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:28:55] [Server thread/INFO]: Indominux joined the game
+[00:28:55] [Server thread/INFO]: Indominux[/186.53.159.201:48839] logged in with entity id 9 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:29:03] [Craft Scheduler Thread - 22/INFO]: [AuthMe] Indominux logged in 186.53.159.201
+[00:29:08] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:29:08] [Server thread/INFO]: Indominux left the game
+[00:33:09] [User Authenticator #10/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:33:10] [Server thread/INFO]: Indominux joined the game
+[00:33:10] [Server thread/INFO]: Indominux[/186.53.159.201:47769] logged in with entity id 10 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:33:17] [Craft Scheduler Thread - 23/INFO]: [AuthMe] Indominux logged in 186.53.159.201
+[00:33:22] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:33:22] [Server thread/INFO]: Indominux left the game
+[00:37:16] [User Authenticator #11/INFO]: UUID of player Indominux is 9fe6f167-3d29-33e1-9d7d-983eb4300bbc
+[00:37:16] [Server thread/INFO]: Indominux joined the game
+[00:37:16] [Server thread/INFO]: Indominux[/186.53.159.201:37147] logged in with entity id 11 at ([world]1.3973069313844464, 143.0, 9.566801921811514)
+[00:37:25] [Craft Scheduler Thread - 26/INFO]: [AuthMe] Indominux logged in 186.53.159.201
+[00:37:30] [Server thread/INFO]: Indominux lost connection: Disconnected
+[00:37:30] [Server thread/INFO]: Indominux left the game
+[05:14:27] [Craft Scheduler Thread - 82/INFO]: [Vault] Checking for Updates ... 
+[05:14:31] [Craft Scheduler Thread - 82/INFO]: [Vault] No new version available
+[11:14:27] [Craft Scheduler Thread - 154/INFO]: [Vault] Checking for Updates ... 
+[11:14:31] [Craft Scheduler Thread - 154/INFO]: [Vault] No new version available
+[17:14:27] [Craft Scheduler Thread - 226/INFO]: [Vault] Checking for Updates ... 
+[17:14:31] [Craft Scheduler Thread - 226/INFO]: [Vault] No new version available
+[23:14:27] [Craft Scheduler Thread - 298/INFO]: [Vault] Checking for Updates ... 
+[23:14:31] [Craft Scheduler Thread - 298/INFO]: [Vault] No new version available
