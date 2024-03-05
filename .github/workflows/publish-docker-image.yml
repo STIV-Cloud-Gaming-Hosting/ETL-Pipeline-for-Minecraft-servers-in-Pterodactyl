@@ -52,7 +52,7 @@ jobs:
   create_github_release:
     name: Create Github Release
     runs-on: ubuntu-latest
-    needs: publish
+    needs: push_to_registry
 
     steps:
       - name: Checkout repository
