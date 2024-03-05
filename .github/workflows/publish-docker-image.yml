@@ -55,15 +55,11 @@ jobs:
     needs: push_to_registry
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Create Release Notes
-        uses: actions/github-script@v7
+        uses: google-github-actions/release-please-action@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            await github.request(`POST /repos/${{ github.repository }}/releases`, {
-              tag_name: '${{ github.ref}}',
-              generate_release_notes: true
-            });
+          release-type: simple
+          package-name: release
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+          token: ${{ secrets.GITHUB_TOKEN }}
