@@ -1,0 +1,43 @@
+Egg;Action;Logs
+Vanilla;Server Start;[12:50:46] [Server thread/INFO]: Starting minecraft server version 1.20.1
+Forge;Server Start;[21:26:41] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.16.5
+Paper;Server Start;[14:35:41 INFO]: Starting minecraft server version 1.20.4
+Mohist;Server Start;[13:52:38 INFO]: Starting minecraft server version 1.16.5
+Spigot;Server Start;[18:14:11] [Server thread/INFO]: Starting minecraft server version 1.20.2
+ARK Survival Ascended;Server Start;"[2023.11.27-01.09.37:255][420]Server: ""Ark Testing"" has successfully started!"
+Vanilla;Server Stop;[12:53:08] [Server thread/INFO]: Stopping the server
+Forge;Server Stop;[21:29:59] [Server thread/INFO] [minecraft/DedicatedServer]: Stopping the server
+Paper;Server Stop;[14:38:37 INFO]: Stopping the server
+Mohist;Server Stop;[13:55:27 INFO]: Stopping the server
+Spigot;Server Stop;[21:50:58] [Server thread/INFO]: Stopping the server
+ARK Survival Ascended;Server Stop;[2023.11.27-01.26.19:419][980]Closing by request
+Vanilla;User Login;[12:51:20] [Server thread/INFO]: leadvic joined the game
+Vanilla;User Login;[12:51:20] [Server thread/INFO]: leadvic[/186.79.202.192:51770] logged in with entity id 77 at (-236.25399634446273, 149.0, -727.3000000119209)
+Forge;User Login;[21:27:01] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 joined the game
+Forge;User Login;[21:27:01] [Server thread/INFO] [minecraft/PlayerList]: NachinWachin21[/179.60.77.8:19297] logged in with entity id 141 at (92.5, 70.0, 89.5)
+Paper;User Login;[14:37:14 INFO]: NachinWachin21 joined the game
+Paper;User Login;[14:37:14 INFO]: NachinWachin21[/179.60.77.8:19305] logged in with entity id 127 at ([world]14.5, 77.0, 70.5)
+Mohist;User Login;[13:52:59 INFO]: UUID of player NachinWachin21 is 7d40c306-cb47-4c9d-9aed-bd80c628faf5
+Mohist;User Login;[13:53:00 INFO]: NachinWachin21[/179.60.77.8:19378] logged in with entity id 53 at (-113.5, 72, 12.5)
+Spigot;User Login;[18:14:37] [Server thread/INFO]: NachinWachin21 joined the game
+Spigot;User Login;[18:14:37] [Server thread/INFO]: NachinWachin21[/179.60.77.8:19312] logged in with entity id 242 at ([world]-23.974296210866612, 69.0, -12.000089077309616)
+ARK Survival Ascended;User Login;[2023.11.27-01.12.34:240][283]IP for incoming account 00026b2861a346bc8ee02500dc3edda1 - IP 167.250.54.139
+ARK Survival Ascended;User Login;[2023.11.27-01.12.35:972][333]2023.11.27_01.12.35: TheRhelaxBaby joined this ARK!
+Vanilla;User Logout;[12:52:27] [Server thread/INFO]: leadvic left the game
+Forge;User Logout;[21:29:09] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 left the game
+Paper;User Logout;[14:38:30 INFO]: NachinWachin21 left the game
+Mohist;User Logout;[13:54:05 INFO]: NachinWachin21 left the game
+Spigot;User Logout;[18:15:53] [Server thread/INFO]: NachinWachin21 left the game
+ARK Survival Ascended;User Logout;[2023.11.27-01.19.00:878][834]2023.11.27_01.19.00: TheRhelaxBaby left this ARK!
+Vanilla;User Chat;[12:51:53] [Server thread/INFO]: [Not Secure] <leadvic> aloha
+Forge;User Chat;[21:28:25] [Server thread/INFO] [minecraft/DedicatedServer]: <NachinWachin21> hola
+Paper;User Chat;[14:37:39 INFO]: <NachinWachin21> hola
+Mohist;User Chat;[13:53:14 INFO]: <NachinWachin21> hola
+Spigot;User Chat;[18:15:00] [Async Chat Thread - #1/INFO]: <NachinWachin21> hola
+ARK Survival Ascended;User Chat;
+Vanilla;User Achievement;[16:31:52] [Server thread/INFO]: usertesting has made the advancement [Stone Age]
+Forge;User Achievement;[21:29:01] [Server thread/INFO] [minecraft/DedicatedServer]: NachinWachin21 drowned
+Paper;User Achievement;[14:38:06 INFO]: NachinWachin21 has made the advancement [Stone Age]
+Mohist;User Achievement;[13:53:50 INFO]: NachinWachin21 has made the advancement [Stone Age]
+Spigot;User Achievement;[18:15:37] [Server thread/INFO]: NachinWachin21 has made the advancement [Stone Age]
+ARK Survival Ascended;User Achievement;[2023.11.27-01.12.37:972][252]2023.11.27_01.12.37: Rhelax of Tribe Tribe of Rhelax Tamed a Baby Rex - Lvl 1 (Rex)!
